@@ -1,0 +1,20 @@
+[0.523s] Invoking command in '/home/avant/simulation/starts/avant_ws/src/pkg_avant': PYTHONPATH=/home/avant/simulation/starts/avant_ws/build/pkg_avant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_avant build --build-base /home/avant/simulation/starts/avant_ws/build/pkg_avant/build install --record /home/avant/simulation/starts/avant_ws/build/pkg_avant/install.log --single-version-externally-managed install_data
+[0.659s] running egg_info
+[0.659s] writing ../../build/pkg_avant/pkg_avant.egg-info/PKG-INFO
+[0.660s] writing dependency_links to ../../build/pkg_avant/pkg_avant.egg-info/dependency_links.txt
+[0.660s] writing entry points to ../../build/pkg_avant/pkg_avant.egg-info/entry_points.txt
+[0.660s] writing requirements to ../../build/pkg_avant/pkg_avant.egg-info/requires.txt
+[0.660s] writing top-level names to ../../build/pkg_avant/pkg_avant.egg-info/top_level.txt
+[0.661s] reading manifest file '../../build/pkg_avant/pkg_avant.egg-info/SOURCES.txt'
+[0.661s] writing manifest file '../../build/pkg_avant/pkg_avant.egg-info/SOURCES.txt'
+[0.661s] running build
+[0.661s] running build_py
+[0.662s] running install
+[0.662s] running install_lib
+[0.663s] running install_data
+[0.663s] running install_egg_info
+[0.664s] removing '/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant-0.0.0-py3.10.egg-info' (and everything under it)
+[0.664s] Copying ../../build/pkg_avant/pkg_avant.egg-info to /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant-0.0.0-py3.10.egg-info
+[0.665s] running install_scripts
+[0.676s] writing list of installed files to '/home/avant/simulation/starts/avant_ws/build/pkg_avant/install.log'
+[0.687s] Invoked command in '/home/avant/simulation/starts/avant_ws/src/pkg_avant' returned '0': PYTHONPATH=/home/avant/simulation/starts/avant_ws/build/pkg_avant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_avant build --build-base /home/avant/simulation/starts/avant_ws/build/pkg_avant/build install --record /home/avant/simulation/starts/avant_ws/build/pkg_avant/install.log --single-version-externally-managed install_data

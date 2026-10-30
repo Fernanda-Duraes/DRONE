@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/pkg_avant/pkg_avant.egg-info
+writing ../../build/pkg_avant/pkg_avant.egg-info/PKG-INFO
+writing dependency_links to ../../build/pkg_avant/pkg_avant.egg-info/dependency_links.txt
+writing requirements to ../../build/pkg_avant/pkg_avant.egg-info/requires.txt
+writing top-level names to ../../build/pkg_avant/pkg_avant.egg-info/top_level.txt
+writing manifest file '../../build/pkg_avant/pkg_avant.egg-info/SOURCES.txt'
+reading manifest file '../../build/pkg_avant/pkg_avant.egg-info/SOURCES.txt'
+writing manifest file '../../build/pkg_avant/pkg_avant.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/avant/simulation/starts/avant_ws/build/pkg_avant/build/lib/pkg_avant
+copying pkg_avant/__init__.py -> /home/avant/simulation/starts/avant_ws/build/pkg_avant/build/lib/pkg_avant
+running install
+running install_lib
+creating /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant
+copying /home/avant/simulation/starts/avant_ws/build/pkg_avant/build/lib/pkg_avant/__init__.py -> /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant
+byte-compiling /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/avant/simulation/starts/avant_ws/install/pkg_avant/share/ament_index/resource_index/packages
+copying resource/pkg_avant -> /home/avant/simulation/starts/avant_ws/install/pkg_avant/share/ament_index/resource_index/packages
+copying package.xml -> /home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant
+running install_egg_info
+Copying ../../build/pkg_avant/pkg_avant.egg-info to /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/avant/simulation/starts/avant_ws/build/pkg_avant/install.log'
