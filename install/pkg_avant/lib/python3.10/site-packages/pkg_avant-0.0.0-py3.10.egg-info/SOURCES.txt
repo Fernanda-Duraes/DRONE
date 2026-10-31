@@ -9,6 +9,8 @@ setup.py
 ../../build/pkg_avant/pkg_avant.egg-info/top_level.txt
 ../../build/pkg_avant/pkg_avant.egg-info/zip-safe
 pkg_avant/__init__.py
+pkg_avant/nav_node.py
+pkg_avant/vision_show_cam.py
 resource/pkg_avant
 test/test_copyright.py
 test/test_flake8.py

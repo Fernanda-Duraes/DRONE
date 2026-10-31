@@ -1,0 +1,9 @@
+setup.py
+precision_interfaces/__init__.py
+precision_interfaces.egg-info/PKG-INFO
+precision_interfaces.egg-info/SOURCES.txt
+precision_interfaces.egg-info/dependency_links.txt
+precision_interfaces.egg-info/top_level.txt
+precision_interfaces/msg/__init__.py
+precision_interfaces/msg/_figura.py
+precision_interfaces/msg/_figura_array.py

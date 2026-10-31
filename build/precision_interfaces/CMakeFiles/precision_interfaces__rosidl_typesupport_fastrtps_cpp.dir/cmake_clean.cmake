@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/precision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/precision_interfaces/msg/detail/dds_fastrtps/figura__type_support.cpp.o"
+  "CMakeFiles/precision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/precision_interfaces/msg/detail/dds_fastrtps/figura__type_support.cpp.o.d"
+  "CMakeFiles/precision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/precision_interfaces/msg/detail/dds_fastrtps/figura_array__type_support.cpp.o"
+  "CMakeFiles/precision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/precision_interfaces/msg/detail/dds_fastrtps/figura_array__type_support.cpp.o.d"
+  "libprecision_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libprecision_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/precision_interfaces/msg/detail/dds_fastrtps/figura__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/precision_interfaces/msg/detail/dds_fastrtps/figura_array__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/precision_interfaces/msg/detail/figura__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/precision_interfaces/msg/detail/figura_array__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/precision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

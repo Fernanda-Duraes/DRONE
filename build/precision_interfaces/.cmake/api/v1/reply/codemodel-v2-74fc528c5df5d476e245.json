@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9d5b4471d78d4774aca3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "precision_interfaces__py",
+					"jsonFile" : "directory-precision_interfaces__py-c9c77b67fc5cc735c6d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/avant/simulation/starts/avant_ws/build/precision_interfaces/precision_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "precision_interfaces__rs",
+					"jsonFile" : "directory-precision_interfaces__rs-46c7fc35c7295de4db4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/avant/simulation/starts/avant_ws/build/precision_interfaces/precision_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "precision_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_precision_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_precision_interfaces_egg-7512ee4e72796827143e.json",
+					"name" : "ament_cmake_python_build_precision_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_precision_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_precision_interfaces-0e1fc2ca72b17f99b464.json",
+					"name" : "ament_cmake_python_copy_precision_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces-5c8f1da4dd8cb9d8fee7.json",
+					"name" : "precision_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces__cpp-c99c613400a84d590d93.json",
+					"name" : "precision_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "precision_interfaces__py::@bd61b899d89c2921455a",
+					"jsonFile" : "target-precision_interfaces__py-d17380ab5b7e71ed1384.json",
+					"name" : "precision_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces__rosidl_generator_c-619dfc83c0cbb1d3fba6.json",
+					"name" : "precision_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces__rosidl_generator_py-f1408d2c9f77d7846d25.json",
+					"name" : "precision_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces__rosidl_typesupport_c-6757786aac82a45d6ca8.json",
+					"name" : "precision_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces__rosidl_typesupport_c__pyext-03072a0e1f6570a05816.json",
+					"name" : "precision_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces__rosidl_typesupport_cpp-67e9bee7820285a31b9b.json",
+					"name" : "precision_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces__rosidl_typesupport_fastrtps_c-1f6ed8555dd8fd5ffcc0.json",
+					"name" : "precision_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces__rosidl_typesupport_fastrtps_c__pyext-abf8f47580248db640e1.json",
+					"name" : "precision_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces__rosidl_typesupport_fastrtps_cpp-91a9657a215791daf5c7.json",
+					"name" : "precision_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces__rosidl_typesupport_introspection_c-500111e8107823433309.json",
+					"name" : "precision_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces__rosidl_typesupport_introspection_c__pyext-93753d5354e57ce04557.json",
+					"name" : "precision_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces__rosidl_typesupport_introspection_cpp-3088d4638a3068175563.json",
+					"name" : "precision_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "precision_interfaces__rs::@3b07459aea0d8c80bc2b",
+					"jsonFile" : "target-precision_interfaces__rs-13d7f04cdfe74d9f2997.json",
+					"name" : "precision_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_interfaces_uninstall-5ac8e74de0e660fd8c0d.json",
+					"name" : "precision_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dd11ce5dec6c8cbece44.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/avant/simulation/starts/avant_ws/build/precision_interfaces",
+		"source" : "/home/avant/simulation/starts/avant_ws/VC/precision_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

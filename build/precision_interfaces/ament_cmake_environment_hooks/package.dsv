@@ -1,0 +1,4 @@
+source;share/precision_interfaces/local_setup.bash
+source;share/precision_interfaces/local_setup.dsv
+source;share/precision_interfaces/local_setup.sh
+source;share/precision_interfaces/local_setup.zsh

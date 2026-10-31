@@ -1,0 +1,2 @@
+[console_scripts]
+trainee_vision_node = precision_task.trainee_vision_node:main

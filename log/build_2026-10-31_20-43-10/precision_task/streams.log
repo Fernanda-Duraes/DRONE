@@ -1,0 +1,26 @@
+[1.527s] Invoking command in '/home/avant/simulation/starts/avant_ws/VC/precision_task': PYTHONPATH=/home/avant/simulation/starts/avant_ws/build/precision_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/simulation/starts/avant_ws/install/precision_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/precision_task build --build-base /home/avant/simulation/starts/avant_ws/build/precision_task/build install --record /home/avant/simulation/starts/avant_ws/build/precision_task/install.log --single-version-externally-managed install_data
+[1.980s] running egg_info
+[2.001s] writing ../../build/precision_task/precision_task.egg-info/PKG-INFO
+[2.002s] writing dependency_links to ../../build/precision_task/precision_task.egg-info/dependency_links.txt
+[2.003s] writing entry points to ../../build/precision_task/precision_task.egg-info/entry_points.txt
+[2.003s] writing requirements to ../../build/precision_task/precision_task.egg-info/requires.txt
+[2.003s] writing top-level names to ../../build/precision_task/precision_task.egg-info/top_level.txt
+[2.054s] reading manifest file '../../build/precision_task/precision_task.egg-info/SOURCES.txt'
+[2.057s] writing manifest file '../../build/precision_task/precision_task.egg-info/SOURCES.txt'
+[2.057s] running build
+[2.057s] running build_py
+[2.057s] copying precision_task/trainee_vision_node.py -> /home/avant/simulation/starts/avant_ws/build/precision_task/build/lib/precision_task
+[2.058s] copying precision_task/__init__.py -> /home/avant/simulation/starts/avant_ws/build/precision_task/build/lib/precision_task
+[2.058s] running install
+[2.067s] running install_lib
+[2.093s] running install_data
+[2.093s] copying resource/precision_task -> /home/avant/simulation/starts/avant_ws/install/precision_task/share/ament_index/resource_index/packages
+[2.093s] copying package.xml -> /home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task
+[2.094s] copying launch/precision.launch.py -> /home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task/launch
+[2.094s] running install_egg_info
+[2.118s] removing '/home/avant/simulation/starts/avant_ws/install/precision_task/lib/python3.10/site-packages/precision_task-0.0.1-py3.10.egg-info' (and everything under it)
+[2.119s] Copying ../../build/precision_task/precision_task.egg-info to /home/avant/simulation/starts/avant_ws/install/precision_task/lib/python3.10/site-packages/precision_task-0.0.1-py3.10.egg-info
+[2.120s] running install_scripts
+[2.171s] Installing trainee_vision_node script to /home/avant/simulation/starts/avant_ws/install/precision_task/lib/precision_task
+[2.173s] writing list of installed files to '/home/avant/simulation/starts/avant_ws/build/precision_task/install.log'
+[2.226s] Invoked command in '/home/avant/simulation/starts/avant_ws/VC/precision_task' returned '0': PYTHONPATH=/home/avant/simulation/starts/avant_ws/build/precision_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/simulation/starts/avant_ws/install/precision_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/precision_task build --build-base /home/avant/simulation/starts/avant_ws/build/precision_task/build install --record /home/avant/simulation/starts/avant_ws/build/precision_task/install.log --single-version-externally-managed install_data
