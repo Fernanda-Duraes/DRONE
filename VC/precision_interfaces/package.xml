@@ -1,16 +1,19 @@
 <?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>precision_interfaces</name>
-  <version>0.0.1</version>
-  <description>Mensagens do nó de visão (Figura e FiguraArray)</description>
-  <maintainer email="user@example.com">trainee</maintainer>
-  <license>MIT</license>
+  <version>0.0.0</version>
+  <description>Mensagens do desafio de visao computacional AVANT.</description>
+  <maintainer email="avant-trainee@ufmg.br">Avant Trainee</maintainer>
+  <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
 
   <depend>std_msgs</depend>
+
   <exec_depend>rosidl_default_runtime</exec_depend>
+
   <member_of_group>rosidl_interface_packages</member_of_group>
 
   <export>
