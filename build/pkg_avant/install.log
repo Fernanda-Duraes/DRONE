@@ -1,7 +1,9 @@
 /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/nav_node.py
+/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/integra_node.py
 /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/vision_show_cam.py
 /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/__init__.py
 /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/__pycache__/nav_node.cpython-310.pyc
+/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/__pycache__/integra_node.cpython-310.pyc
 /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/__pycache__/vision_show_cam.cpython-310.pyc
 /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/__pycache__/__init__.cpython-310.pyc
 /home/avant/simulation/starts/avant_ws/install/pkg_avant/share/ament_index/resource_index/packages/pkg_avant
@@ -13,5 +15,6 @@
 /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant-0.0.0-py3.10.egg-info/entry_points.txt
 /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant-0.0.0-py3.10.egg-info/zip-safe
+/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/pkg_avant/integra_node
 /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/pkg_avant/nav_node
 /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/pkg_avant/vision_show_cam

@@ -1,0 +1,11 @@
+project_name: rodatudo
+root: .
+
+windows:
+  -  rodatudo:
+      layout: tiled
+      panes:
+        - ros2 run pkg_avant nav_node
+        - ros2 run pkg_avant integra_node
+#        - ros2 run pkg_avant vision_node
+#        - ros2 run pkg_avant sound_node

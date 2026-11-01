@@ -1,0 +1,31 @@
+[0.712s] Invoking command in '/home/avant/simulation/starts/avant_ws/src/pkg_avant': PYTHONPATH=/home/avant/simulation/starts/avant_ws/build/pkg_avant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_avant build --build-base /home/avant/simulation/starts/avant_ws/build/pkg_avant/build install --record /home/avant/simulation/starts/avant_ws/build/pkg_avant/install.log --single-version-externally-managed install_data
+[0.903s] running egg_info
+[0.912s] writing ../../build/pkg_avant/pkg_avant.egg-info/PKG-INFO
+[0.913s] writing dependency_links to ../../build/pkg_avant/pkg_avant.egg-info/dependency_links.txt
+[0.913s] writing entry points to ../../build/pkg_avant/pkg_avant.egg-info/entry_points.txt
+[0.913s] writing requirements to ../../build/pkg_avant/pkg_avant.egg-info/requires.txt
+[0.913s] writing top-level names to ../../build/pkg_avant/pkg_avant.egg-info/top_level.txt
+[0.934s] reading manifest file '../../build/pkg_avant/pkg_avant.egg-info/SOURCES.txt'
+[0.935s] writing manifest file '../../build/pkg_avant/pkg_avant.egg-info/SOURCES.txt'
+[0.935s] running build
+[0.935s] running build_py
+[0.935s] copying pkg_avant/nav_node.py -> /home/avant/simulation/starts/avant_ws/build/pkg_avant/build/lib/pkg_avant
+[0.935s] copying pkg_avant/integra_node.py -> /home/avant/simulation/starts/avant_ws/build/pkg_avant/build/lib/pkg_avant
+[0.935s] copying pkg_avant/vision_show_cam.py -> /home/avant/simulation/starts/avant_ws/build/pkg_avant/build/lib/pkg_avant
+[0.935s] copying pkg_avant/__init__.py -> /home/avant/simulation/starts/avant_ws/build/pkg_avant/build/lib/pkg_avant
+[0.936s] running install
+[0.939s] running install_lib
+[0.950s] copying /home/avant/simulation/starts/avant_ws/build/pkg_avant/build/lib/pkg_avant/integra_node.py -> /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant
+[0.950s] byte-compiling /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/integra_node.py to integra_node.cpython-310.pyc
+[0.951s] running install_data
+[0.951s] copying resource/pkg_avant -> /home/avant/simulation/starts/avant_ws/install/pkg_avant/share/ament_index/resource_index/packages
+[0.951s] copying package.xml -> /home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant
+[0.951s] running install_egg_info
+[0.965s] removing '/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant-0.0.0-py3.10.egg-info' (and everything under it)
+[0.965s] Copying ../../build/pkg_avant/pkg_avant.egg-info to /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages/pkg_avant-0.0.0-py3.10.egg-info
+[0.966s] running install_scripts
+[0.989s] Installing integra_node script to /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/pkg_avant
+[0.989s] Installing nav_node script to /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/pkg_avant
+[0.989s] Installing vision_show_cam script to /home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/pkg_avant
+[0.989s] writing list of installed files to '/home/avant/simulation/starts/avant_ws/build/pkg_avant/install.log'
+[1.010s] Invoked command in '/home/avant/simulation/starts/avant_ws/src/pkg_avant' returned '0': PYTHONPATH=/home/avant/simulation/starts/avant_ws/build/pkg_avant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_avant build --build-base /home/avant/simulation/starts/avant_ws/build/pkg_avant/build install --record /home/avant/simulation/starts/avant_ws/build/pkg_avant/install.log --single-version-externally-managed install_data

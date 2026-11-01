@@ -1,0 +1,174 @@
+[0.320s] Invoking command in '/home/avant/simulation/starts/avant_ws/build/precision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avant/simulation/starts/avant_ws/install/precision_task:/home/avant/simulation/starts/avant_ws/install/pkg_avant:/opt/ros/humble /usr/bin/cmake --build /home/avant/simulation/starts/avant_ws/build/precision_interfaces -- -j16 -l16
+[0.376s] [  2%] Built target precision_interfaces__rs
+[0.378s] [ 12%] Built target precision_interfaces__rosidl_generator_c
+[0.378s] [ 15%] Built target precision_interfaces__cpp
+[0.386s] [ 15%] Built target ament_cmake_python_copy_precision_interfaces
+[0.480s] [ 25%] Built target precision_interfaces__rosidl_typesupport_c
+[0.496s] [ 35%] Built target precision_interfaces__rosidl_typesupport_introspection_c
+[0.504s] [ 45%] Built target precision_interfaces__rosidl_typesupport_fastrtps_c
+[0.506s] [ 55%] Built target precision_interfaces__rosidl_typesupport_cpp
+[0.506s] [ 70%] Built target precision_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.509s] [ 75%] Built target precision_interfaces__rosidl_typesupport_introspection_cpp
+[0.670s] [ 75%] Built target precision_interfaces
+[0.795s] [ 77%] Built target precision_interfaces__py
+[0.946s] [ 85%] Built target precision_interfaces__rosidl_generator_py
+[1.095s] [ 90%] Built target precision_interfaces__rosidl_typesupport_c__pyext
+[1.096s] [ 95%] Built target precision_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.098s] [100%] Built target precision_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.910s] running egg_info
+[1.999s] writing precision_interfaces.egg-info/PKG-INFO
+[2.003s] writing dependency_links to precision_interfaces.egg-info/dependency_links.txt
+[2.005s] writing top-level names to precision_interfaces.egg-info/top_level.txt
+[2.324s] reading manifest file 'precision_interfaces.egg-info/SOURCES.txt'
+[2.333s] writing manifest file 'precision_interfaces.egg-info/SOURCES.txt'
+[2.465s] [100%] Built target ament_cmake_python_build_precision_interfaces_egg
+[2.483s] Invoked command in '/home/avant/simulation/starts/avant_ws/build/precision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avant/simulation/starts/avant_ws/install/precision_task:/home/avant/simulation/starts/avant_ws/install/pkg_avant:/opt/ros/humble /usr/bin/cmake --build /home/avant/simulation/starts/avant_ws/build/precision_interfaces -- -j16 -l16
+[2.497s] Invoking command in '/home/avant/simulation/starts/avant_ws/build/precision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avant/simulation/starts/avant_ws/install/precision_task:/home/avant/simulation/starts/avant_ws/install/pkg_avant:/opt/ros/humble /usr/bin/cmake --install /home/avant/simulation/starts/avant_ws/build/precision_interfaces
+[2.507s] -- Install configuration: ""
+[2.508s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/ament_index/resource_index/rosidl_interfaces/precision_interfaces
+[2.508s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces
+[2.508s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg
+[2.508s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/figura.h
+[2.509s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.509s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail
+[2.509s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__struct.h
+[2.509s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__functions.h
+[2.509s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__type_support.h
+[2.509s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__functions.c
+[2.510s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__type_support.h
+[2.510s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__functions.c
+[2.510s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__struct.h
+[2.510s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__functions.h
+[2.510s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/figura_array.h
+[2.510s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/library_path.sh
+[2.510s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/library_path.dsv
+[2.510s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_generator_c.so
+[2.510s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces
+[2.510s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg
+[2.510s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__rosidl_typesupport_fastrtps_c.h
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__rosidl_typesupport_fastrtps_c.h
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__rosidl_typesupport_introspection_c.h
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__type_support.c
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__type_support.c
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__rosidl_typesupport_introspection_c.h
+[2.511s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_introspection_c.so
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_c.so
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/figura.hpp
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__builder.hpp
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__type_support.hpp
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__builder.hpp
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__traits.hpp
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__struct.hpp
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__struct.hpp
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__type_support.hpp
+[2.512s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__traits.hpp
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/figura_array.hpp
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/dds_fastrtps
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__rosidl_typesupport_fastrtps_cpp.hpp
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg
+[2.513s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail
+[2.514s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__type_support.cpp
+[2.514s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__rosidl_typesupport_introspection_cpp.hpp
+[2.514s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__rosidl_typesupport_introspection_cpp.hpp
+[2.514s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__type_support.cpp
+[2.514s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.514s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_cpp.so
+[2.514s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/pythonpath.sh
+[2.514s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/pythonpath.dsv
+[2.514s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces-0.0.1-py3.10.egg-info
+[2.514s] -- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[2.514s] -- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[2.515s] -- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[2.515s] -- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[2.515s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces
+[2.515s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.515s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/libprecision_interfaces__rosidl_generator_py.so
+[2.516s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/_precision_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.516s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.516s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/__init__.py
+[2.516s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg
+[2.516s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/_figura_s.c
+[2.516s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/_figura_array_s.c
+[2.516s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/__init__.py
+[2.516s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/_figura_array.py
+[2.516s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/_figura.py
+[2.516s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/_precision_interfaces_s.ep.rosidl_typesupport_c.c
+[2.516s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.516s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/_precision_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.562s] Listing '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces'...
+[2.562s] Listing '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg'...
+[2.570s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.571s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.571s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.571s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_generator_py.so
+[2.572s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/ament_index/resource_index/rust_packages/precision_interfaces
+[2.573s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust
+[2.573s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/src
+[2.573s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/src/msg.rs
+[2.573s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/src/lib.rs
+[2.573s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/src/msg
+[2.573s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/src/msg/rmw.rs
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/Cargo.toml
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/build.rs
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/msg/Figura.idl
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/msg/FiguraArray.idl
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/msg/Figura.msg
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/msg/FiguraArray.msg
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/ament_index/resource_index/package_run_dependencies/precision_interfaces
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/ament_index/resource_index/parent_prefix_path/precision_interfaces
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/ament_prefix_path.sh
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/ament_prefix_path.dsv
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/path.sh
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/path.dsv
+[2.574s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/local_setup.bash
+[2.575s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/local_setup.sh
+[2.575s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/local_setup.zsh
+[2.575s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/local_setup.dsv
+[2.575s] -- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.dsv
+[2.575s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/ament_index/resource_index/packages/precision_interfaces
+[2.575s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_generator_cExport.cmake
+[2.575s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.575s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.575s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_cExport.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_generator_cppExport.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_cppExport.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_generator_pyExport.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.576s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.577s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.577s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.577s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.577s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.577s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfacesConfig.cmake
+[2.577s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfacesConfig-version.cmake
+[2.577s] -- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.xml
+[2.578s] Invoked command in '/home/avant/simulation/starts/avant_ws/build/precision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avant/simulation/starts/avant_ws/install/precision_task:/home/avant/simulation/starts/avant_ws/install/pkg_avant:/opt/ros/humble /usr/bin/cmake --install /home/avant/simulation/starts/avant_ws/build/precision_interfaces

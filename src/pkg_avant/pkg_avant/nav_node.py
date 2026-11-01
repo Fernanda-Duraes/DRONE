@@ -9,7 +9,10 @@ from numpy import sqrt
 from rcl_interfaces.msg import Parameter, ParameterType, ParameterValue
 from rclpy.node import Node
 from rclpy.qos import qos_profile_sensor_data
+from std_msgs.msg import String
 
+def handle_emergencyStop(signum,frame):
+    raise KeyboardInterrupt
 
 class NavNode(Node):
     def __init__(self):
@@ -32,6 +35,17 @@ class NavNode(Node):
         self.arming_client = self.create_client(CommandBool, '/mavros/cmd/arming')
         self.takeoff_client = self.create_client(CommandTOL, '/mavros/cmd/takeoff')
         self.land_client = self.create_client(CommandTOL, '/mavros/cmd/land')
+
+        #todas quinquilharias relacionadas aos processos do no de integracao
+        # o no de integracao basicamente espera todos os nos estarem inicializados para
+        # entao permitir que eles facam suas funcoes
+        self.nav_state = "offline"
+        self.system_state = "offline"
+        self.system_state_subscriber = self.create_subscription(String,'/pkg_avant/integra/global_system_status',callback=self.readSystemStatus,qos_profile=10)
+        self.nav_node_state_publisher = self.create_publisher(String,'/pkg_avant/integra/nav_status',10)
+        self.timer = self.create_timer(timer_period_sec=0.5,callback=self.publish_nav_state)
+
+
         self.pose_subscriber = self.create_subscription(PoseStamped,'/mavros/local_position/pose',callback=self.readPose,qos_profile=qos_profile_sensor_data)
         self.waypoint_publisher = self.create_publisher(PoseStamped,'/mavros/setpoint_position/local',10)
         self.parameter_client = self.create_client(ParamSetV2,'/mavros/param/set')
@@ -50,6 +64,31 @@ class NavNode(Node):
         self.setParameters('WPNAV_ACCEL',self.maxSpeed/2)
         self.setParameters('RTL_ALT',self.h*100)
         self.setParameters('RTL_CLIMB_MIN',self.h*100/3)
+
+        self.nav_state = "online"
+
+    """*
+    Le o estado atual do sistema,
+    se offline, fica esperando
+    se online, libera o programa pra iniciar o resto dos trem
+    se abort_mission, cancela a missao e pousa na base
+    """
+    def readSystemStatus(self,message:String):
+
+        self.system_state=message.data
+        if(self.system_state=="abort_mission"):
+            self.system_state="abort_mission"
+            raise KeyboardInterrupt
+
+
+    """*
+    Publica o estado atual do sistema a cada 0.5 segundos
+    O no de integracao usa isso pra ver se o no de navegacao esta inicializado
+    """
+    def publish_nav_state(self):
+        message = String()
+        message.data = self.nav_state
+        self.nav_node_state_publisher.publish(message)
 
     def setParameters(self,name,value):
         """
@@ -118,7 +157,7 @@ class NavNode(Node):
 
         msg.pose.orientation.x= float(0)
         msg.pose.orientation.y= float(0)
-        msg.pose.orientation.z= float(1.0)
+        msg.pose.orientation.z= float(1)
         msg.pose.orientation.w= float(0)
 
         self.waypoint_publisher.publish(msg=msg)
@@ -170,6 +209,7 @@ class NavNode(Node):
                 )
 
     def land(self):
+        """O pouso normal feito quando o drone segue todos os waypoints"""
         self.get_logger().info('Indo para a Base...')
         self.setWaypoint(-1,0,0,2)
         while rclpy.ok():
@@ -195,12 +235,15 @@ class NavNode(Node):
 
 
     def run_mission(self):
+        while(self.system_state != "online"):
+            rclpy.spin_once(self)
+        self.startTime = time.monotonic()
         self.set_mode("GUIDED")  # modo que permite controle por comandos
-        time.sleep(0.2)
+        time.sleep(1)
         self.arm()
-        time.sleep(0.2)
+        time.sleep(1)
         self.takeoff(altitude=self.h)
-        time.sleep(5)
+        time.sleep(7)
         self.travelWaypointsInOrder()
         self.land()
         time.sleep(3)
@@ -213,10 +256,6 @@ def main(args=None):
 
     rclpy.init(args=args)
     node = NavNode()
-
-    def handle_emergencyStop(signum,frame):
-        raise KeyboardInterrupt
-
 
 
     signal.signal(signal.SIGINT,handle_emergencyStop)

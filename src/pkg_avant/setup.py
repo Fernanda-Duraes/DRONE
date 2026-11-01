@@ -25,7 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'nav_node = pkg_avant.nav_node:main',
-            'vision_show_cam = pkg_avant.vision_show_cam:main'
+            'vision_show_cam = pkg_avant.vision_show_cam:main',
+            'integra_node = pkg_avant.integra_node:main'
         ],
     },
 )
