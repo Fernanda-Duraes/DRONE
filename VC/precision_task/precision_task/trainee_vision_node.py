@@ -3,11 +3,10 @@ import cv2 as cv
 import numpy as np
 import rclpy
 from cv_bridge import CvBridge
-from geometry_msgs.msg import PoseStamped
 from precision_interfaces.msg import Figura, FiguraArray
 from rclpy.node import Node
 from rclpy.qos import qos_profile_sensor_data
-from sensor_msgs.msg import CameraInfo, Image
+from sensor_msgs.msg import Image
 from std_msgs.msg import Bool
 
 S_MIN = 100
@@ -47,16 +46,11 @@ class TraineeVisionNode(Node):
 
         self.create_subscription(Image, '/camera/image_raw', self.read_im,
                                  qos_profile_sensor_data)
-        self.create_subscription(CameraInfo, '/camera/camera_info', self.camera_info,
-                                 qos_profile_sensor_data)
 
         self.pub_objects = self.create_publisher(FiguraArray, '/vision/objects', 10)
         self.pub_complete = self.create_publisher(Bool, '/vision/complete', 10)
 
         self.bridge = CvBridge()
-        self.K = self.D = None
-        self.nova_K = None
-        self.roi = None
         self.primeiro_frame = True
 
         self.figuras = {}
@@ -64,45 +58,15 @@ class TraineeVisionNode(Node):
         self.completo = False
 
         self.create_timer(0.5, self.publish_state)
-        self.create_timer(5.0, self.aviso_camera_info)
 
         self.get_logger().info(
             f'Nó de visão ativo (altura {altura:.1f} m, AREA_MIN efetiva {self.area_min:.0f} px)')
-
-    def aviso_camera_info(self):
-        if self.K is None:
-            self.get_logger().warn(
-                'Sem camera_info válida: seguindo SEM correção de distorção. '
-                'Verifique se /camera/camera_info tem publicador (ros_gz_bridge).')
-
-    def camera_info(self, info: CameraInfo):
-        if self.K is not None:
-            return
-        if info.k[0] == 0.0 or info.k[4] == 0.0:
-            self.get_logger().warn('camera_info recebida com K zerada, ignorando')
-            return
-        self.K = np.array(info.k).reshape(3, 3)
-        self.D = np.array(info.d) if len(info.d) else np.zeros(5)
-        size = (info.width, info.height)
-        self.nova_K, self.roi = cv.getOptimalNewCameraMatrix(
-            self.K, self.D, size, 1, size)
-        self.get_logger().info(f'camera_info recebida (fx={self.K[0, 0]:.1f})')
-
-    def undistort(self, img):
-        if self.K is None:
-            return img
-        x, y, rw, rh = self.roi
-        img_corrigida = cv.undistort(img, self.K, self.D, None, self.nova_K)
-        if rw > 0 and rh > 0:
-            img_corrigida = img_corrigida[y:y + rh, x:x + rw]
-        return img_corrigida
 
     def read_im(self, msg: Image):
         if self.primeiro_frame:
             self.get_logger().info(f'Primeiro frame recebido ({msg.width}x{msg.height})')
             self.primeiro_frame = False
-
-        img = self.undistort(self.bridge.imgmsg_to_cv2(msg, 'bgr8'))
+        img = self.bridge.imgmsg_to_cv2(msg, 'bgr8')
         h_img, w_img = img.shape[:2]
         debug = img.copy()
 
