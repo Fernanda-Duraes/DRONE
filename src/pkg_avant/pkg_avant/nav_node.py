@@ -17,7 +17,7 @@ def handle_emergencyStop(signum,frame):
 class NavNode(Node):
     def __init__(self):
         self.h = 6.0 #altura de voo escolhida
-        self.waypointList = [ (6.3, -3, self.h), (-6.3, -3, self.h), (-6.3, -1.5, self.h), (6.3, -1.5, self.h), (6.3, 0, self.h), (-6.3, 0, self.h), (-6.3, 1.5, self.h), (6.3, 1.5, self.h), (6.3, 3, self.h), (-6.3, 3, self.h) ]
+        self.waypointList = [ (6, -3, self.h), (-6, -3, self.h), (-6, -1.5, self.h), (6, -1.5, self.h), (6, 0, self.h), (-6, 0, self.h), (-6, 1.5, self.h), (6, 1.5, self.h), (6, 3, self.h), (-6, 3, self.h) ]
         #lista de waypoints a serem visitados no vasculhamento
         self.tolerance = 0.1 #tolerancia em metros
         self.maxSpeed = 100 #velocidade maxima cm/s
@@ -57,15 +57,18 @@ class NavNode(Node):
             self.get_logger().warn('Aguardando serviços do MAVROS...')
 
 
-
+        time.sleep(1)
         # Roda o movimento
         self.get_logger().info('Conexão estabelecida. Iniciando sequência de voo.')
-        self.setParameters('WPNAV_SPD',self.maxSpeed)
-        self.setParameters('WPNAV_ACCEL',self.maxSpeed/2)
-        self.setParameters('RTL_ALT',self.h*100)
-        self.setParameters('RTL_CLIMB_MIN',self.h*100/3)
-
-        self.nav_state = "online"
+        try:
+            self.setParameters('WPNAV_SPD',self.maxSpeed)
+            self.setParameters('WPNAV_ACCEL',self.maxSpeed/2)
+            self.setParameters('RTL_ALT',self.h*100)
+            self.setParameters('RTL_CLIMB_MIN',self.h*100/3)
+            self.is_initialized=True
+            self.nav_state = "online"
+        except KeyboardInterrupt:
+            self.is_initialized=False
 
     """*
     Le o estado atual do sistema,
@@ -102,9 +105,12 @@ class NavNode(Node):
             double_value=float(value)
         )
         future=self.parameter_client.call_async(req1)
-        rclpy.spin_until_future_complete(self,future)
+        rclpy.spin_until_future_complete(self,future,timeout_sec=5)
         if future.result() is not None:
             self.get_logger().info(f"Parametro {name} configurado para {value}")
+        else:
+            self.get_logger().info(f"Erro na configuracao do parametro {name}")
+            raise KeyboardInterrupt
 
 
     def readPose(self,msg):
@@ -195,7 +201,7 @@ class NavNode(Node):
         Essa e a funcao chamada no caso de apertar control+c durante a execucao
         """
         if rclpy.ok():
-            # manda um request RTK
+            # manda um request RTL
             req = SetMode.Request()
             req.custom_mode = 'RTL'
 
@@ -261,12 +267,12 @@ def main(args=None):
     signal.signal(signal.SIGINT,handle_emergencyStop)
     #tive que fazer essa logica adicional pra funcionar o control +c porque senao o
     # rclpy se destroi quando o comando de contro c eh dado
-
-    try:
-        node.run_mission()
-        #rclpy.spin(node)
-    except KeyboardInterrupt:
-        node.emergencyLand()
+    if node.is_initialized:
+        try:
+            node.run_mission()
+            #rclpy.spin(node)
+        except KeyboardInterrupt:
+            node.emergencyLand()
     node.destroy_node()
     rclpy.shutdown()
 

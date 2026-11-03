@@ -21,7 +21,7 @@ class SoundNode(Node):
 
         self.complete_subscriber = self.create_subscription(Bool,'/vision/complete',self.receber_conclusao,10)
 
-        self.caminho_sons = "/home/avant/Grupo-6-Trainee-Avant/src/pkg_avant/pkg_avant/" #onde os sons estao localizados
+        self.caminho_sons = "./src/pkg_avant/pkg_avant/" #onde os sons estao localizados
         self.figuras = None
         self.visao_completa = False
         self.sequencia_executada = False
@@ -70,7 +70,7 @@ class SoundNode(Node):
             arquivo = "hexagono.mp3"
 
         elif "triangulo" in forma:
-            arquivo = "som3.mp3"
+            arquivo = "triangulo.mp3"
 
         else:
             self.get_logger().warn(f"Forma desconhecida: {forma}")

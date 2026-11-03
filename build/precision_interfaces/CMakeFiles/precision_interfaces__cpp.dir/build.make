@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avant/Grupo-6-Trainee-Avant/VC/precision_interfaces
+CMAKE_SOURCE_DIR = /home/avant/simulation/starts/avant_ws/VC/precision_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces
+CMAKE_BINARY_DIR = /home/avant/simulation/starts/avant_ws/build/precision_interfaces
 
 # Utility rule file for precision_interfaces__cpp.
 
@@ -127,8 +127,8 @@ rosidl_generator_cpp/precision_interfaces/msg/figura.hpp: /opt/ros/humble/share/
 rosidl_generator_cpp/precision_interfaces/msg/figura.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/precision_interfaces/msg/figura.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/precision_interfaces/msg/figura.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avant/simulation/starts/avant_ws/build/precision_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/avant/simulation/starts/avant_ws/build/precision_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/precision_interfaces/msg/detail/figura__builder.hpp: rosidl_generator_cpp/precision_interfaces/msg/figura.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/precision_interfaces/msg/detail/figura__builder.hpp
@@ -180,6 +180,6 @@ CMakeFiles/precision_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/precision_interfaces__cpp.dir/clean
 
 CMakeFiles/precision_interfaces__cpp.dir/depend:
-	cd /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avant/Grupo-6-Trainee-Avant/VC/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/VC/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/CMakeFiles/precision_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avant/simulation/starts/avant_ws/build/precision_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avant/simulation/starts/avant_ws/VC/precision_interfaces /home/avant/simulation/starts/avant_ws/VC/precision_interfaces /home/avant/simulation/starts/avant_ws/build/precision_interfaces /home/avant/simulation/starts/avant_ws/build/precision_interfaces /home/avant/simulation/starts/avant_ws/build/precision_interfaces/CMakeFiles/precision_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/precision_interfaces__cpp.dir/depend
 

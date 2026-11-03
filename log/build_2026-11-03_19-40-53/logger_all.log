@@ -1,0 +1,265 @@
+[0.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.113s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7490a51a86d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7490a517b910>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7490a517b910>>)
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.161s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/avant/simulation/starts/avant_ws'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_interfaces) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_interfaces) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_interfaces) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_interfaces) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_interfaces) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_interfaces) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_interfaces) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_interfaces) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'VC/precision_interfaces' with type 'ros.ament_cmake' and name 'precision_interfaces'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_task) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_task) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_task) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_task) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_task) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_task) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_task) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_task) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(VC/precision_task) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'VC/precision_task' with type 'ros.ament_python' and name 'precision_task'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_avant) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_avant) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_avant) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_avant) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_avant) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_avant) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_avant) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_avant) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_avant) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_avant' with type 'ros.ament_python' and name 'pkg_avant'
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/avant/simulation/starts/avant_ws/install
+[0.213s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 297 installed packages in /opt/ros/humble
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'pkg_avant' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'pkg_avant' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'pkg_avant' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'pkg_avant' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'pkg_avant' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'pkg_avant' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'pkg_avant' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'pkg_avant' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'pkg_avant' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.262s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_avant' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avant/simulation/starts/avant_ws/build/pkg_avant', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avant/simulation/starts/avant_ws/install/pkg_avant', 'merge_install': False, 'path': '/home/avant/simulation/starts/avant_ws/src/pkg_avant', 'symlink_install': False, 'test_result_base': None}
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'precision_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'precision_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'precision_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'precision_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'precision_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'precision_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'precision_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'precision_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'precision_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.263s] DEBUG:colcon.colcon_core.verb:Building package 'precision_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avant/simulation/starts/avant_ws/build/precision_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avant/simulation/starts/avant_ws/install/precision_interfaces', 'merge_install': False, 'path': '/home/avant/simulation/starts/avant_ws/VC/precision_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'precision_task' build argument 'cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'precision_task' build argument 'cmake_target' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'precision_task' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'precision_task' build argument 'cmake_clean_cache' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'precision_task' build argument 'cmake_clean_first' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'precision_task' build argument 'cmake_force_configure' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'precision_task' build argument 'ament_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'precision_task' build argument 'catkin_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'precision_task' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.264s] DEBUG:colcon.colcon_core.verb:Building package 'precision_task' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avant/simulation/starts/avant_ws/build/precision_task', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avant/simulation/starts/avant_ws/install/precision_task', 'merge_install': False, 'path': '/home/avant/simulation/starts/avant_ws/VC/precision_task', 'symlink_install': False, 'test_result_base': None}
+[0.264s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.266s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avant/simulation/starts/avant_ws/VC/precision_interfaces' with build type 'ament_cmake'
+[0.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avant/simulation/starts/avant_ws/VC/precision_interfaces'
+[0.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.276s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/avant/simulation/starts/avant_ws/src/pkg_avant' with build type 'ament_python'
+[0.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_avant', 'ament_prefix_path')
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant/hook/ament_prefix_path.ps1'
+[0.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant/hook/ament_prefix_path.dsv'
+[0.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant/hook/ament_prefix_path.sh'
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avant/simulation/starts/avant_ws/build/precision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avant/simulation/starts/avant_ws/install/precision_task:/home/avant/simulation/starts/avant_ws/install/pkg_avant:/opt/ros/humble /usr/bin/cmake --build /home/avant/simulation/starts/avant_ws/build/precision_interfaces -- -j16 -l16
+[0.704s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/avant/simulation/starts/avant_ws/src/pkg_avant'
+[0.705s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avant/simulation/starts/avant_ws/build/precision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avant/simulation/starts/avant_ws/install/precision_task:/home/avant/simulation/starts/avant_ws/install/pkg_avant:/opt/ros/humble /usr/bin/cmake --build /home/avant/simulation/starts/avant_ws/build/precision_interfaces -- -j16 -l16
+[1.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avant/simulation/starts/avant_ws/build/precision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avant/simulation/starts/avant_ws/install/precision_task:/home/avant/simulation/starts/avant_ws/install/pkg_avant:/opt/ros/humble /usr/bin/cmake --install /home/avant/simulation/starts/avant_ws/build/precision_interfaces
+[1.175s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(precision_interfaces)
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces' for CMake module files
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avant/simulation/starts/avant_ws/build/precision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avant/simulation/starts/avant_ws/install/precision_task:/home/avant/simulation/starts/avant_ws/install/pkg_avant:/opt/ros/humble /usr/bin/cmake --install /home/avant/simulation/starts/avant_ws/build/precision_interfaces
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces' for CMake config files
+[1.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('precision_interfaces', 'cmake_prefix_path')
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/hook/cmake_prefix_path.ps1'
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/hook/cmake_prefix_path.dsv'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/hook/cmake_prefix_path.sh'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib'
+[1.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('precision_interfaces', 'ld_library_path_lib')
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/hook/ld_library_path_lib.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/hook/ld_library_path_lib.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/hook/ld_library_path_lib.sh'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/bin'
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/pkgconfig/precision_interfaces.pc'
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/python3.10/site-packages'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/bin'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.ps1'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.dsv'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.sh'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.bash'
+[1.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.zsh'
+[1.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/colcon-core/packages/precision_interfaces)
+[1.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(precision_interfaces)
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces' for CMake module files
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces' for CMake config files
+[1.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('precision_interfaces', 'cmake_prefix_path')
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/hook/cmake_prefix_path.ps1'
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/hook/cmake_prefix_path.dsv'
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/hook/cmake_prefix_path.sh'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib'
+[1.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('precision_interfaces', 'ld_library_path_lib')
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/hook/ld_library_path_lib.ps1'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/hook/ld_library_path_lib.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/hook/ld_library_path_lib.sh'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/bin'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/pkgconfig/precision_interfaces.pc'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/python3.10/site-packages'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/bin'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.ps1'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.dsv'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.sh'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.bash'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.zsh'
+[1.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/colcon-core/packages/precision_interfaces)
+[1.226s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/avant/simulation/starts/avant_ws/VC/precision_task' with build type 'ament_python'
+[1.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('precision_task', 'ament_prefix_path')
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task/hook/ament_prefix_path.ps1'
+[1.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task/hook/ament_prefix_path.dsv'
+[1.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task/hook/ament_prefix_path.sh'
+[1.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.626s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/avant/simulation/starts/avant_ws/VC/precision_task'
+[1.627s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avant/simulation/starts/avant_ws/src/pkg_avant': PYTHONPATH=/home/avant/simulation/starts/avant_ws/build/pkg_avant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_avant build --build-base /home/avant/simulation/starts/avant_ws/build/pkg_avant/build install --record /home/avant/simulation/starts/avant_ws/build/pkg_avant/install.log --single-version-externally-managed install_data
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/pkg_avant' for CMake module files
+[2.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avant/simulation/starts/avant_ws/src/pkg_avant' returned '0': PYTHONPATH=/home/avant/simulation/starts/avant_ws/build/pkg_avant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_avant build --build-base /home/avant/simulation/starts/avant_ws/build/pkg_avant/build install --record /home/avant/simulation/starts/avant_ws/build/pkg_avant/install.log --single-version-externally-managed install_data
+[2.372s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/pkg_avant' for CMake config files
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/pkg_avant/bin'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/pkgconfig/pkg_avant.pc'
+[2.374s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/pkg_avant/lib/python3.10/site-packages'
+[2.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_avant', 'pythonpath')
+[2.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant/hook/pythonpath.ps1'
+[2.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant/hook/pythonpath.dsv'
+[2.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant/hook/pythonpath.sh'
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/pkg_avant/bin'
+[2.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_avant)
+[2.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant/package.ps1'
+[2.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant/package.dsv'
+[2.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant/package.sh'
+[2.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant/package.bash'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/pkg_avant/share/pkg_avant/package.zsh'
+[2.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avant/simulation/starts/avant_ws/install/pkg_avant/share/colcon-core/packages/pkg_avant)
+[2.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avant/simulation/starts/avant_ws/VC/precision_task': PYTHONPATH=/home/avant/simulation/starts/avant_ws/build/precision_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/simulation/starts/avant_ws/install/precision_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/precision_task build --build-base /home/avant/simulation/starts/avant_ws/build/precision_task/build install --record /home/avant/simulation/starts/avant_ws/build/precision_task/install.log --single-version-externally-managed install_data
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_task' for CMake module files
+[3.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avant/simulation/starts/avant_ws/VC/precision_task' returned '0': PYTHONPATH=/home/avant/simulation/starts/avant_ws/build/precision_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/simulation/starts/avant_ws/install/precision_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/precision_task build --build-base /home/avant/simulation/starts/avant_ws/build/precision_task/build install --record /home/avant/simulation/starts/avant_ws/build/precision_task/install.log --single-version-externally-managed install_data
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_task' for CMake config files
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_task/lib'
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_task/bin'
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_task/lib/pkgconfig/precision_task.pc'
+[3.040s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_task/lib/python3.10/site-packages'
+[3.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('precision_task', 'pythonpath')
+[3.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task/hook/pythonpath.ps1'
+[3.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task/hook/pythonpath.dsv'
+[3.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task/hook/pythonpath.sh'
+[3.043s] Level 1:colcon.colcon_core.environment:checking '/home/avant/simulation/starts/avant_ws/install/precision_task/bin'
+[3.043s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(precision_task)
+[3.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task/package.ps1'
+[3.044s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task/package.dsv'
+[3.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task/package.sh'
+[3.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task/package.bash'
+[3.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/avant/simulation/starts/avant_ws/install/precision_task/share/precision_task/package.zsh'
+[3.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avant/simulation/starts/avant_ws/install/precision_task/share/colcon-core/packages/precision_task)
+[3.047s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.047s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.047s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.047s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.055s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.055s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.056s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.056s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.059s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[3.059s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.060s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/avant/simulation/starts/avant_ws/install/local_setup.ps1'
+[3.062s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/avant/simulation/starts/avant_ws/install/_local_setup_util_ps1.py'
+[3.064s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/avant/simulation/starts/avant_ws/install/setup.ps1'
+[3.065s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/avant/simulation/starts/avant_ws/install/local_setup.sh'
+[3.066s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/avant/simulation/starts/avant_ws/install/_local_setup_util_sh.py'
+[3.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/avant/simulation/starts/avant_ws/install/setup.sh'
+[3.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/avant/simulation/starts/avant_ws/install/local_setup.bash'
+[3.069s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/avant/simulation/starts/avant_ws/install/setup.bash'
+[3.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/avant/simulation/starts/avant_ws/install/local_setup.zsh'
+[3.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/avant/simulation/starts/avant_ws/install/setup.zsh'

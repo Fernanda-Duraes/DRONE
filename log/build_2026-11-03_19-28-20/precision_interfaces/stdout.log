@@ -1,0 +1,268 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/avant/simulation/starts/avant_ws/build/precision_interfaces
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  7%] Built target ament_cmake_python_copy_precision_interfaces
+running egg_info
+[  7%] Built target precision_interfaces__rs
+writing precision_interfaces.egg-info/PKG-INFO
+writing dependency_links to precision_interfaces.egg-info/dependency_links.txt
+writing top-level names to precision_interfaces.egg-info/top_level.txt
+reading manifest file 'precision_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'precision_interfaces.egg-info/SOURCES.txt'
+[  7%] Built target precision_interfaces__cpp
+[ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 15%] Built target ament_cmake_python_build_precision_interfaces_egg
+[35m[1mConsolidate compiler generated dependencies of target precision_interfaces__rosidl_generator_c[0m
+[ 17%] [32mBuilding C object CMakeFiles/precision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/precision_interfaces/msg/detail/figura__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/precision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/precision_interfaces/msg/detail/figura_array__functions.c.o[0m
+[ 22%] [32m[1mLinking C shared library libprecision_interfaces__rosidl_generator_c.so[0m
+[ 22%] Built target precision_interfaces__rosidl_generator_c
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mConsolidate compiler generated dependencies of target precision_interfaces__rosidl_typesupport_cpp[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/precision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_interfaces/msg/figura__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/precision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_interfaces/msg/figura_array__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target precision_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target precision_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/precision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/precision_interfaces/msg/detail/dds_fastrtps/figura__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/precision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/precision_interfaces/msg/detail/dds_fastrtps/figura_array__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/precision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/precision_interfaces/msg/detail/figura_array__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/precision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/precision_interfaces/msg/detail/figura__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target precision_interfaces__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target precision_interfaces__rosidl_typesupport_c[0m
+[ 47%] [32mBuilding C object CMakeFiles/precision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/precision_interfaces/msg/detail/figura__type_support.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/precision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/precision_interfaces/msg/detail/figura_array__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/precision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/precision_interfaces/msg/figura__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/precision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/precision_interfaces/msg/figura_array__type_support.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libprecision_interfaces__rosidl_typesupport_c.so[0m
+[35m[1mConsolidate compiler generated dependencies of target precision_interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 60%] [32m[1mLinking C shared library libprecision_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/precision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/precision_interfaces/msg/detail/figura_array__type_support_c.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/precision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/precision_interfaces/msg/detail/figura__type_support_c.cpp.o[0m
+[ 65%] Built target precision_interfaces__rosidl_typesupport_c
+[ 65%] Built target precision_interfaces__rosidl_typesupport_introspection_c
+[ 67%] [32m[1mLinking CXX shared library libprecision_interfaces__rosidl_typesupport_cpp.so[0m
+[ 67%] Built target precision_interfaces__rosidl_typesupport_cpp
+[ 70%] [32m[1mLinking CXX shared library libprecision_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 72%] [32m[1mLinking CXX shared library libprecision_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 72%] Built target precision_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target precision_interfaces__rosidl_typesupport_introspection_cpp
+[ 75%] [32m[1mLinking CXX shared library libprecision_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 75%] Built target precision_interfaces__rosidl_typesupport_fastrtps_c
+[ 75%] Built target precision_interfaces
+[ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 77%] Built target precision_interfaces__py
+[35m[1mConsolidate compiler generated dependencies of target precision_interfaces__rosidl_generator_py[0m
+[ 80%] [32mBuilding C object CMakeFiles/precision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/precision_interfaces/msg/_figura_array_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/precision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/precision_interfaces/msg/_figura_s.c.o[0m
+[ 85%] [32m[1mLinking C shared library rosidl_generator_py/precision_interfaces/libprecision_interfaces__rosidl_generator_py.so[0m
+[ 85%] Built target precision_interfaces__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target precision_interfaces__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target precision_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target precision_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 87%] [32mBuilding C object CMakeFiles/precision_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/precision_interfaces/_precision_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/precision_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/precision_interfaces/_precision_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/precision_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/precision_interfaces/_precision_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/precision_interfaces/precision_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/precision_interfaces/precision_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/precision_interfaces/precision_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target precision_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target precision_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target precision_interfaces__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/ament_index/resource_index/rosidl_interfaces/precision_interfaces
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/figura.h
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__struct.h
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__functions.h
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__type_support.h
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__functions.c
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__type_support.h
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__functions.c
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__struct.h
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__functions.h
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/figura_array.h
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/library_path.sh
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/library_path.dsv
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__rosidl_typesupport_introspection_c.h
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__type_support.c
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__type_support.c
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__rosidl_typesupport_introspection_c.h
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/figura.hpp
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__builder.hpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__type_support.hpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__builder.hpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__traits.hpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__struct.hpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__struct.hpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__type_support.hpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__traits.hpp
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/figura_array.hpp
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__type_support.cpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura_array__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/include/precision_interfaces/precision_interfaces/msg/detail/figura__type_support.cpp
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/pythonpath.sh
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/pythonpath.dsv
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces-0.0.0-py3.10.egg-info
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/libprecision_interfaces__rosidl_generator_py.so
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/_precision_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/__init__.py
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/_figura_s.c
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/_figura_array_s.c
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/__init__.py
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/_figura_array.py
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/_figura.py
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/_precision_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/_precision_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces'...
+Compiling '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/__init__.py'...
+Listing '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg'...
+Compiling '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/__init__.py'...
+Compiling '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/_figura.py'...
+Compiling '/home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/msg/_figura_array.py'...
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/avant/simulation/starts/avant_ws/install/precision_interfaces/local/lib/python3.10/dist-packages/precision_interfaces/precision_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/home/avant/simulation/starts/avant_ws/install/precision_interfaces/lib/libprecision_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/ament_index/resource_index/rust_packages/precision_interfaces
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/src
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/src/msg.rs
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/src/lib.rs
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/src/msg
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/src/msg/rmw.rs
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/Cargo.toml
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/rust/build.rs
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/msg/Figura.idl
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/msg/FiguraArray.idl
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/msg/Figura.msg
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/msg/FiguraArray.msg
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/ament_index/resource_index/package_run_dependencies/precision_interfaces
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/ament_index/resource_index/parent_prefix_path/precision_interfaces
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/path.sh
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/environment/path.dsv
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/local_setup.bash
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/local_setup.sh
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/local_setup.zsh
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/local_setup.dsv
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.dsv
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/ament_index/resource_index/packages/precision_interfaces
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/export_precision_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfacesConfig.cmake
+-- Up-to-date: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/cmake/precision_interfacesConfig-version.cmake
+-- Installing: /home/avant/simulation/starts/avant_ws/install/precision_interfaces/share/precision_interfaces/package.xml

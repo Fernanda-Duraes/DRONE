@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_rs/precision_interfaces/rust/Cargo.toml"
   "../rosidl_generator_rs/precision_interfaces/rust/build.rs"
   "../rosidl_generator_rs/precision_interfaces/rust/src/lib.rs"
+  "../rosidl_generator_rs/precision_interfaces/rust/src/msg.rs"
+  "../rosidl_generator_rs/precision_interfaces/rust/src/msg/rmw.rs"
   "CMakeFiles/precision_interfaces__rs"
 )
 

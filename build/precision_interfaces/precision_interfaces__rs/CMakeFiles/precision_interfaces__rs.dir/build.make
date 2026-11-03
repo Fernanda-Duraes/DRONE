@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avant/Grupo-6-Trainee-Avant/VC/precision_interfaces
+CMAKE_SOURCE_DIR = /home/avant/simulation/starts/avant_ws/VC/precision_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces
+CMAKE_BINARY_DIR = /home/avant/simulation/starts/avant_ws/build/precision_interfaces
 
 # Utility rule file for precision_interfaces__rs.
 
@@ -69,14 +69,13 @@ include precision_interfaces__rs/CMakeFiles/precision_interfaces__rs.dir/progres
 precision_interfaces__rs/CMakeFiles/precision_interfaces__rs: rosidl_generator_rs/precision_interfaces/rust/src/lib.rs
 precision_interfaces__rs/CMakeFiles/precision_interfaces__rs: rosidl_generator_rs/precision_interfaces/rust/build.rs
 precision_interfaces__rs/CMakeFiles/precision_interfaces__rs: rosidl_generator_rs/precision_interfaces/rust/Cargo.toml
+precision_interfaces__rs/CMakeFiles/precision_interfaces__rs: rosidl_generator_rs/precision_interfaces/rust/src/msg.rs
+precision_interfaces__rs/CMakeFiles/precision_interfaces__rs: rosidl_generator_rs/precision_interfaces/rust/src/msg/rmw.rs
 
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/lib/rosidl_generator_rs/rosidl_generator_rs
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/action.rs.em
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/action/rmw.rs.em
-rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/build.rs.em
-rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/Cargo.toml.em
-rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/lib.rs.em
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/msg.rs.em
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/msg/rmw.rs.em
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/srv.rs.em
@@ -85,6 +84,8 @@ rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/templates/msg_rmw.rs.em
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
+rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: rosidl_adapter/precision_interfaces/msg/Figura.idl
+rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: rosidl_adapter/precision_interfaces/msg/FiguraArray.idl
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: rosidl_adapter/precision_interfaces/msg/Figura.idl
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: rosidl_adapter/precision_interfaces/msg/FiguraArray.idl
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -119,8 +120,8 @@ rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_rs/precision_interfaces/rust/src/lib.rs: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"
-	cd /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/precision_interfaces__rs && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avant/simulation/starts/avant_ws/build/precision_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"
+	cd /home/avant/simulation/starts/avant_ws/build/precision_interfaces/precision_interfaces__rs && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /home/avant/simulation/starts/avant_ws/build/precision_interfaces/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_rs/precision_interfaces/rust/build.rs: rosidl_generator_rs/precision_interfaces/rust/src/lib.rs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/precision_interfaces/rust/build.rs
@@ -128,10 +129,18 @@ rosidl_generator_rs/precision_interfaces/rust/build.rs: rosidl_generator_rs/prec
 rosidl_generator_rs/precision_interfaces/rust/Cargo.toml: rosidl_generator_rs/precision_interfaces/rust/src/lib.rs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/precision_interfaces/rust/Cargo.toml
 
+rosidl_generator_rs/precision_interfaces/rust/src/msg.rs: rosidl_generator_rs/precision_interfaces/rust/src/lib.rs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/precision_interfaces/rust/src/msg.rs
+
+rosidl_generator_rs/precision_interfaces/rust/src/msg/rmw.rs: rosidl_generator_rs/precision_interfaces/rust/src/lib.rs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/precision_interfaces/rust/src/msg/rmw.rs
+
 precision_interfaces__rs: precision_interfaces__rs/CMakeFiles/precision_interfaces__rs
 precision_interfaces__rs: rosidl_generator_rs/precision_interfaces/rust/Cargo.toml
 precision_interfaces__rs: rosidl_generator_rs/precision_interfaces/rust/build.rs
 precision_interfaces__rs: rosidl_generator_rs/precision_interfaces/rust/src/lib.rs
+precision_interfaces__rs: rosidl_generator_rs/precision_interfaces/rust/src/msg.rs
+precision_interfaces__rs: rosidl_generator_rs/precision_interfaces/rust/src/msg/rmw.rs
 precision_interfaces__rs: precision_interfaces__rs/CMakeFiles/precision_interfaces__rs.dir/build.make
 .PHONY : precision_interfaces__rs
 
@@ -140,10 +149,10 @@ precision_interfaces__rs/CMakeFiles/precision_interfaces__rs.dir/build: precisio
 .PHONY : precision_interfaces__rs/CMakeFiles/precision_interfaces__rs.dir/build
 
 precision_interfaces__rs/CMakeFiles/precision_interfaces__rs.dir/clean:
-	cd /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/precision_interfaces__rs && $(CMAKE_COMMAND) -P CMakeFiles/precision_interfaces__rs.dir/cmake_clean.cmake
+	cd /home/avant/simulation/starts/avant_ws/build/precision_interfaces/precision_interfaces__rs && $(CMAKE_COMMAND) -P CMakeFiles/precision_interfaces__rs.dir/cmake_clean.cmake
 .PHONY : precision_interfaces__rs/CMakeFiles/precision_interfaces__rs.dir/clean
 
 precision_interfaces__rs/CMakeFiles/precision_interfaces__rs.dir/depend:
-	cd /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avant/Grupo-6-Trainee-Avant/VC/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/precision_interfaces__rs /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/precision_interfaces__rs /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/precision_interfaces__rs/CMakeFiles/precision_interfaces__rs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avant/simulation/starts/avant_ws/build/precision_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avant/simulation/starts/avant_ws/VC/precision_interfaces /home/avant/simulation/starts/avant_ws/build/precision_interfaces/precision_interfaces__rs /home/avant/simulation/starts/avant_ws/build/precision_interfaces /home/avant/simulation/starts/avant_ws/build/precision_interfaces/precision_interfaces__rs /home/avant/simulation/starts/avant_ws/build/precision_interfaces/precision_interfaces__rs/CMakeFiles/precision_interfaces__rs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : precision_interfaces__rs/CMakeFiles/precision_interfaces__rs.dir/depend
 

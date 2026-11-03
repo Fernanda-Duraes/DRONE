@@ -21,7 +21,7 @@ class SoundNode(Node):
 
         self.complete_subscriber = self.create_subscription(Bool,'/vision/complete',self.receber_conclusao,10)
 
-        self.caminho_sons = "/home/avant/Grupo-6-Trainee-Avant/src/pkg_avant/pkg_avant/" #onde os sons estao localizados
+        self.caminho_sons = "./src/pkg_avant/pkg_avant/" #onde os sons estao localizados
         self.figuras = None
         self.visao_completa = False
         self.sequencia_executada = False
