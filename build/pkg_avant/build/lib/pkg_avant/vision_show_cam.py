@@ -13,8 +13,7 @@ class NodeApresentacao(Node):
 
         self.subscription = self.create_subscription(Image,'/camera/image_raw',self.image_callback,10)
         self.bridge = CvBridge()
-        # Mensagem "Hello World"
-        self.get_logger().info("HAAAAAAello world!")
+       
 
     def info_callback(self,msg):
         if not self.camera_info_received:

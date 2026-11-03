@@ -4,7 +4,7 @@
 # compile CXX with /usr/lib/ccache/c++
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_TYPESUPPORT_INTROSPECTION_CPP_BUILDING_DLL -DROS_PACKAGE_NAME=\"precision_interfaces\"
 
-CXX_INCLUDES = -I/home/avant/simulation/starts/avant_ws/build/precision_interfaces/rosidl_typesupport_introspection_cpp -I/home/avant/simulation/starts/avant_ws/build/precision_interfaces/rosidl_generator_cpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c
+CXX_INCLUDES = -I/home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/rosidl_typesupport_introspection_cpp -I/home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/rosidl_generator_cpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c
 
 CXX_FLAGS = -fPIC -Wall -Wextra -Wpedantic
 

@@ -11,6 +11,7 @@ setup.py
 pkg_avant/__init__.py
 pkg_avant/integra_node.py
 pkg_avant/nav_node.py
+pkg_avant/sound_node.py
 pkg_avant/vision_show_cam.py
 resource/pkg_avant
 test/test_copyright.py

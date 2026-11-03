@@ -7,7 +7,7 @@ from precision_interfaces.msg import Figura, FiguraArray
 from rclpy.node import Node
 from rclpy.qos import qos_profile_sensor_data
 from sensor_msgs.msg import Image
-from std_msgs.msg import Bool
+from std_msgs.msg import Bool, String
 
 S_MIN = 100
 V_MIN = 50
@@ -49,6 +49,9 @@ class TraineeVisionNode(Node):
 
         self.pub_objects = self.create_publisher(FiguraArray, '/vision/objects', 10)
         self.pub_complete = self.create_publisher(Bool, '/vision/complete', 10)
+        self.vision_node_state_publisher = self.create_publisher(String,'/pkg_avant/integra/vision_status',10)
+
+
 
         self.bridge = CvBridge()
         self.primeiro_frame = True
@@ -58,9 +61,15 @@ class TraineeVisionNode(Node):
         self.completo = False
 
         self.create_timer(0.5, self.publish_state)
-
+        self.vision_state = "online"
+        self.timer = self.create_timer(0.5, self.publish_vision_state)
         self.get_logger().info(
             f'Nó de visão ativo (altura {altura:.1f} m, AREA_MIN efetiva {self.area_min:.0f} px)')
+
+    def publish_vision_state(self):
+        msg = String()
+        msg.data = self.vision_state
+        self.vision_node_state_publisher.publish(msg)
 
     def read_im(self, msg: Image):
         if self.primeiro_frame:
@@ -205,6 +214,7 @@ class TraineeVisionNode(Node):
         done = Bool()
         done.data = self.completo
         self.pub_complete.publish(done)
+       
 
 
 def main(args=None):

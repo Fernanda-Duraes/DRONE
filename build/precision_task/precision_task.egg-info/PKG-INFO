@@ -1,13 +1,12 @@
-Metadata-Version: 2.4
-Name: precision_task
+Metadata-Version: 2.1
+Name: precision-task
 Version: 0.0.1
 Summary: No de visao computacional do trainee
+Home-page: UNKNOWN
 Maintainer: fernanda
 Maintainer-email: fernanda@example.com
 License: MIT
-Requires-Dist: setuptools
-Dynamic: license
-Dynamic: maintainer
-Dynamic: maintainer-email
-Dynamic: requires-dist
-Dynamic: summary
+Platform: UNKNOWN
+
+UNKNOWN
+

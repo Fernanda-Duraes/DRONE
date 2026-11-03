@@ -4,7 +4,7 @@
 # compile C with /usr/lib/ccache/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"precision_interfaces\" -Dprecision_interfaces__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/avant/simulation/starts/avant_ws/build/precision_interfaces/rosidl_generator_c -I/home/avant/simulation/starts/avant_ws/build/precision_interfaces/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
+C_INCLUDES = -I/home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/rosidl_generator_c -I/home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
 
 C_FLAGS = -fPIC -Wall -Wextra
 

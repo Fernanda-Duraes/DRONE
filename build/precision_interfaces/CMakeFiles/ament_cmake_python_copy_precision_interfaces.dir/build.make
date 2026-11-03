@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avant/simulation/starts/avant_ws/VC/precision_interfaces
+CMAKE_SOURCE_DIR = /home/avant/Grupo-6-Trainee-Avant/VC/precision_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avant/simulation/starts/avant_ws/build/precision_interfaces
+CMAKE_BINARY_DIR = /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces
 
 # Utility rule file for ament_cmake_python_copy_precision_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_precision_interfaces.dir/compiler_dep
 include CMakeFiles/ament_cmake_python_copy_precision_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_precision_interfaces:
-	/usr/bin/cmake -E copy_directory /home/avant/simulation/starts/avant_ws/build/precision_interfaces/rosidl_generator_py/precision_interfaces /home/avant/simulation/starts/avant_ws/build/precision_interfaces/ament_cmake_python/precision_interfaces/precision_interfaces
+	/usr/bin/cmake -E copy_directory /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/rosidl_generator_py/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/ament_cmake_python/precision_interfaces/precision_interfaces
 
 ament_cmake_python_copy_precision_interfaces: CMakeFiles/ament_cmake_python_copy_precision_interfaces
 ament_cmake_python_copy_precision_interfaces: CMakeFiles/ament_cmake_python_copy_precision_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_precision_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_precision_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_precision_interfaces.dir/depend:
-	cd /home/avant/simulation/starts/avant_ws/build/precision_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avant/simulation/starts/avant_ws/VC/precision_interfaces /home/avant/simulation/starts/avant_ws/VC/precision_interfaces /home/avant/simulation/starts/avant_ws/build/precision_interfaces /home/avant/simulation/starts/avant_ws/build/precision_interfaces /home/avant/simulation/starts/avant_ws/build/precision_interfaces/CMakeFiles/ament_cmake_python_copy_precision_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avant/Grupo-6-Trainee-Avant/VC/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/VC/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/CMakeFiles/ament_cmake_python_copy_precision_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_precision_interfaces.dir/depend
 

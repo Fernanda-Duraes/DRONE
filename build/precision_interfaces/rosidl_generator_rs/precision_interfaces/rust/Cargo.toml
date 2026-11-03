@@ -1,6 +1,6 @@
 [package]
 name = "precision_interfaces"
-version = "0.0.1"
+version = "0.0.0"
 edition = "2021"
 
 [dependencies]
@@ -15,5 +15,5 @@ std_msgs = "*"
 [features]
 serde = ['dep:serde', 'dep:serde-big-array', 'rosidl_runtime_rs/serde', 'builtin_interfaces/serde', 'std_msgs/serde']
 
-[package.metadata.rclrs]
-reexport = true
+[package.metadata.ros-env]
+include = true

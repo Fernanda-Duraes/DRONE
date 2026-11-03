@@ -1,10 +1,10 @@
 {
   "package_name": "precision_interfaces",
-  "output_dir": "/home/avant/simulation/starts/avant_ws/build/precision_interfaces/rosidl_typesupport_c/precision_interfaces",
+  "output_dir": "/home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/rosidl_typesupport_c/precision_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/avant/simulation/starts/avant_ws/build/precision_interfaces/rosidl_adapter/precision_interfaces:msg/Figura.idl",
-    "/home/avant/simulation/starts/avant_ws/build/precision_interfaces/rosidl_adapter/precision_interfaces:msg/FiguraArray.idl"
+    "/home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/rosidl_adapter/precision_interfaces:msg/Figura.idl",
+    "/home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/rosidl_adapter/precision_interfaces:msg/FiguraArray.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -47,8 +47,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
-    "/home/avant/simulation/starts/avant_ws/build/precision_interfaces/rosidl_adapter/precision_interfaces/msg/Figura.idl",
-    "/home/avant/simulation/starts/avant_ws/build/precision_interfaces/rosidl_adapter/precision_interfaces/msg/FiguraArray.idl",
+    "/home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/rosidl_adapter/precision_interfaces/msg/Figura.idl",
+    "/home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/rosidl_adapter/precision_interfaces/msg/FiguraArray.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

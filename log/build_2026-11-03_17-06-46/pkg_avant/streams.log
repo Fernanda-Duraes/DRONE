@@ -1,0 +1,27 @@
+[1.161s] Invoking command in '/home/avant/Grupo-6-Trainee-Avant/src/pkg_avant': PYTHONPATH=/home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_avant build --build-base /home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/build install --record /home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/install.log --install-scripts $base/lib/pkg_avant --single-version-externally-managed install_data
+[1.488s] running egg_info
+[1.488s] writing ../../build/pkg_avant/pkg_avant.egg-info/PKG-INFO
+[1.489s] writing dependency_links to ../../build/pkg_avant/pkg_avant.egg-info/dependency_links.txt
+[1.489s] writing entry points to ../../build/pkg_avant/pkg_avant.egg-info/entry_points.txt
+[1.489s] writing requirements to ../../build/pkg_avant/pkg_avant.egg-info/requires.txt
+[1.489s] writing top-level names to ../../build/pkg_avant/pkg_avant.egg-info/top_level.txt
+[1.531s] reading manifest file '../../build/pkg_avant/pkg_avant.egg-info/SOURCES.txt'
+[1.532s] writing manifest file '../../build/pkg_avant/pkg_avant.egg-info/SOURCES.txt'
+[1.533s] running build
+[1.533s] running build_py
+[1.533s] copying pkg_avant/sound_node.py -> /home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/build/lib/pkg_avant
+[1.533s] running install
+[1.534s] running install_lib
+[1.535s] copying /home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/build/lib/pkg_avant/sound_node.py -> /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages/pkg_avant
+[1.535s] byte-compiling /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/sound_node.py to sound_node.cpython-310.pyc
+[1.537s] running install_data
+[1.537s] running install_egg_info
+[1.539s] removing '/home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages/pkg_avant-0.0.0-py3.10.egg-info' (and everything under it)
+[1.539s] Copying ../../build/pkg_avant/pkg_avant.egg-info to /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages/pkg_avant-0.0.0-py3.10.egg-info
+[1.541s] running install_scripts
+[1.563s] Installing integra_node script to /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/pkg_avant
+[1.564s] Installing nav_node script to /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/pkg_avant
+[1.564s] Installing sound_node script to /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/pkg_avant
+[1.564s] Installing vision_show_cam script to /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/pkg_avant
+[1.565s] writing list of installed files to '/home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/install.log'
+[1.594s] Invoked command in '/home/avant/Grupo-6-Trainee-Avant/src/pkg_avant' returned '0': PYTHONPATH=/home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_avant build --build-base /home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/build install --record /home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/install.log --install-scripts $base/lib/pkg_avant --single-version-externally-managed install_data

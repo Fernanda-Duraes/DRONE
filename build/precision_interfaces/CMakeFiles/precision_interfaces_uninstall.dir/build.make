@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avant/simulation/starts/avant_ws/VC/precision_interfaces
+CMAKE_SOURCE_DIR = /home/avant/Grupo-6-Trainee-Avant/VC/precision_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avant/simulation/starts/avant_ws/build/precision_interfaces
+CMAKE_BINARY_DIR = /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces
 
 # Utility rule file for precision_interfaces_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/precision_interfaces_uninstall.dir/compiler_depend.make
 include CMakeFiles/precision_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/precision_interfaces_uninstall:
-	/usr/bin/cmake -P /home/avant/simulation/starts/avant_ws/build/precision_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 precision_interfaces_uninstall: CMakeFiles/precision_interfaces_uninstall
 precision_interfaces_uninstall: CMakeFiles/precision_interfaces_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/precision_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/precision_interfaces_uninstall.dir/clean
 
 CMakeFiles/precision_interfaces_uninstall.dir/depend:
-	cd /home/avant/simulation/starts/avant_ws/build/precision_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avant/simulation/starts/avant_ws/VC/precision_interfaces /home/avant/simulation/starts/avant_ws/VC/precision_interfaces /home/avant/simulation/starts/avant_ws/build/precision_interfaces /home/avant/simulation/starts/avant_ws/build/precision_interfaces /home/avant/simulation/starts/avant_ws/build/precision_interfaces/CMakeFiles/precision_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avant/Grupo-6-Trainee-Avant/VC/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/VC/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/CMakeFiles/precision_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/precision_interfaces_uninstall.dir/depend
 

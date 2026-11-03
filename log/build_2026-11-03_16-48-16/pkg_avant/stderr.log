@@ -1,0 +1,5 @@
+  File "/home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/sound_node.py", line 23
+    self.caminho_sons = "/home/avant/Grupo-6-Trainee-Avant/src/pkg_avant/pkg_avant/"        self.etapa = 0
+                                                                                            ^^^^
+SyntaxError: invalid syntax
+

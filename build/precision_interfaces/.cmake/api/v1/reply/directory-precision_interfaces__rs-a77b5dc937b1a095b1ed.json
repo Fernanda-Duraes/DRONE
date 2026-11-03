@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "precision_interfaces__rs",
+		"source" : "/home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/precision_interfaces__rs"
+	}
+}

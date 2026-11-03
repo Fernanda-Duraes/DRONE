@@ -1,8 +1,8 @@
-# Install script for directory: /home/avant/simulation/starts/avant_ws/build/precision_interfaces/precision_interfaces__py
+# Install script for directory: /home/avant/Grupo-6-Trainee-Avant/build/precision_interfaces/precision_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/avant/simulation/starts/avant_ws/install/precision_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/avant/Grupo-6-Trainee-Avant/install/precision_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

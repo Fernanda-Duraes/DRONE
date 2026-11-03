@@ -1,0 +1,33 @@
+[1.113s] Invoking command in '/home/avant/Grupo-6-Trainee-Avant/src/pkg_avant': PYTHONPATH=/home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_avant build --build-base /home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/build install --record /home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/install.log --install-scripts $base/lib/pkg_avant --single-version-externally-managed install_data
+[1.443s] running egg_info
+[1.443s] writing ../../build/pkg_avant/pkg_avant.egg-info/PKG-INFO
+[1.444s] writing dependency_links to ../../build/pkg_avant/pkg_avant.egg-info/dependency_links.txt
+[1.444s] writing entry points to ../../build/pkg_avant/pkg_avant.egg-info/entry_points.txt
+[1.444s] writing requirements to ../../build/pkg_avant/pkg_avant.egg-info/requires.txt
+[1.444s] writing top-level names to ../../build/pkg_avant/pkg_avant.egg-info/top_level.txt
+[1.479s] reading manifest file '../../build/pkg_avant/pkg_avant.egg-info/SOURCES.txt'
+[1.480s] writing manifest file '../../build/pkg_avant/pkg_avant.egg-info/SOURCES.txt'
+[1.481s] running build
+[1.481s] running build_py
+[1.481s] copying pkg_avant/vision_show_cam.py -> /home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/build/lib/pkg_avant
+[1.481s] running install
+[1.481s] running install_lib
+[1.482s] copying /home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/build/lib/pkg_avant/vision_show_cam.py -> /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages/pkg_avant
+[1.483s] byte-compiling /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/sound_node.py to sound_node.cpython-310.pyc
+[1.484s]   File "/home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/sound_node.py", line 23
+[1.484s]     self.caminho_sons = "/home/avant/Grupo-6-Trainee-Avant/src/pkg_avant/pkg_avant/"        self.etapa = 0
+[1.484s]                                                                                             ^^^^
+[1.484s] SyntaxError: invalid syntax
+[1.484s] 
+[1.484s] byte-compiling /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages/pkg_avant/vision_show_cam.py to vision_show_cam.cpython-310.pyc
+[1.484s] running install_data
+[1.484s] running install_egg_info
+[1.487s] removing '/home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages/pkg_avant-0.0.0-py3.10.egg-info' (and everything under it)
+[1.487s] Copying ../../build/pkg_avant/pkg_avant.egg-info to /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages/pkg_avant-0.0.0-py3.10.egg-info
+[1.488s] running install_scripts
+[1.518s] Installing integra_node script to /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/pkg_avant
+[1.519s] Installing nav_node script to /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/pkg_avant
+[1.519s] Installing sound_node script to /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/pkg_avant
+[1.520s] Installing vision_show_cam script to /home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/pkg_avant
+[1.520s] writing list of installed files to '/home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/install.log'
+[1.552s] Invoked command in '/home/avant/Grupo-6-Trainee-Avant/src/pkg_avant' returned '0': PYTHONPATH=/home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/Grupo-6-Trainee-Avant/install/pkg_avant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_avant build --build-base /home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/build install --record /home/avant/Grupo-6-Trainee-Avant/build/pkg_avant/install.log --install-scripts $base/lib/pkg_avant --single-version-externally-managed install_data

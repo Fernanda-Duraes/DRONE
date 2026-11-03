@@ -36,7 +36,9 @@ class NavNode(Node):
         self.takeoff_client = self.create_client(CommandTOL, '/mavros/cmd/takeoff')
         self.land_client = self.create_client(CommandTOL, '/mavros/cmd/land')
 
-
+        #todas quinquilharias relacionadas aos processos do no de integracao
+        # o no de integracao basicamente espera todos os nos estarem inicializados para
+        # entao permitir que eles facam suas funcoes
         self.nav_state = "offline"
         self.system_state = "offline"
         self.system_state_subscriber = self.create_subscription(String,'/pkg_avant/integra/global_system_status',callback=self.readSystemStatus,qos_profile=10)
@@ -65,6 +67,12 @@ class NavNode(Node):
 
         self.nav_state = "online"
 
+    """*
+    Le o estado atual do sistema,
+    se offline, fica esperando
+    se online, libera o programa pra iniciar o resto dos trem
+    se abort_mission, cancela a missao e pousa na base
+    """
     def readSystemStatus(self,message:String):
 
         self.system_state=message.data
@@ -72,6 +80,11 @@ class NavNode(Node):
             self.system_state="abort_mission"
             raise KeyboardInterrupt
 
+
+    """*
+    Publica o estado atual do sistema a cada 0.5 segundos
+    O no de integracao usa isso pra ver se o no de navegacao esta inicializado
+    """
     def publish_nav_state(self):
         message = String()
         message.data = self.nav_state
@@ -196,6 +209,7 @@ class NavNode(Node):
                 )
 
     def land(self):
+        """O pouso normal feito quando o drone segue todos os waypoints"""
         self.get_logger().info('Indo para a Base...')
         self.setWaypoint(-1,0,0,2)
         while rclpy.ok():

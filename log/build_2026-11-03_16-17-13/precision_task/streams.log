@@ -1,0 +1,39 @@
+[0.518s] Invoking command in '/home/avant/Grupo-6-Trainee-Avant/VC/precision_task': PYTHONPATH=/home/avant/Grupo-6-Trainee-Avant/build/precision_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/Grupo-6-Trainee-Avant/install/precision_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/precision_task build --build-base /home/avant/Grupo-6-Trainee-Avant/build/precision_task/build install --record /home/avant/Grupo-6-Trainee-Avant/build/precision_task/install.log --install-scripts $base/lib/precision_task --single-version-externally-managed install_data
+[0.728s] running egg_info
+[0.729s] creating ../../build/precision_task/precision_task.egg-info
+[0.729s] writing ../../build/precision_task/precision_task.egg-info/PKG-INFO
+[0.730s] writing dependency_links to ../../build/precision_task/precision_task.egg-info/dependency_links.txt
+[0.730s] writing entry points to ../../build/precision_task/precision_task.egg-info/entry_points.txt
+[0.730s] writing requirements to ../../build/precision_task/precision_task.egg-info/requires.txt
+[0.730s] writing top-level names to ../../build/precision_task/precision_task.egg-info/top_level.txt
+[0.730s] writing manifest file '../../build/precision_task/precision_task.egg-info/SOURCES.txt'
+[0.756s] reading manifest file '../../build/precision_task/precision_task.egg-info/SOURCES.txt'
+[0.756s] writing manifest file '../../build/precision_task/precision_task.egg-info/SOURCES.txt'
+[0.757s] running build
+[0.757s] running build_py
+[0.757s] creating /home/avant/Grupo-6-Trainee-Avant/build/precision_task/build
+[0.757s] creating /home/avant/Grupo-6-Trainee-Avant/build/precision_task/build/lib
+[0.757s] creating /home/avant/Grupo-6-Trainee-Avant/build/precision_task/build/lib/precision_task
+[0.757s] copying precision_task/trainee_vision_node.py -> /home/avant/Grupo-6-Trainee-Avant/build/precision_task/build/lib/precision_task
+[0.757s] copying precision_task/__init__.py -> /home/avant/Grupo-6-Trainee-Avant/build/precision_task/build/lib/precision_task
+[0.757s] running install
+[0.757s] running install_lib
+[0.758s] creating /home/avant/Grupo-6-Trainee-Avant/install/precision_task/lib/python3.10/site-packages/precision_task
+[0.758s] copying /home/avant/Grupo-6-Trainee-Avant/build/precision_task/build/lib/precision_task/trainee_vision_node.py -> /home/avant/Grupo-6-Trainee-Avant/install/precision_task/lib/python3.10/site-packages/precision_task
+[0.758s] copying /home/avant/Grupo-6-Trainee-Avant/build/precision_task/build/lib/precision_task/__init__.py -> /home/avant/Grupo-6-Trainee-Avant/install/precision_task/lib/python3.10/site-packages/precision_task
+[0.758s] byte-compiling /home/avant/Grupo-6-Trainee-Avant/install/precision_task/lib/python3.10/site-packages/precision_task/trainee_vision_node.py to trainee_vision_node.cpython-310.pyc
+[0.760s] byte-compiling /home/avant/Grupo-6-Trainee-Avant/install/precision_task/lib/python3.10/site-packages/precision_task/__init__.py to __init__.cpython-310.pyc
+[0.760s] running install_data
+[0.760s] creating /home/avant/Grupo-6-Trainee-Avant/install/precision_task/share/ament_index
+[0.760s] creating /home/avant/Grupo-6-Trainee-Avant/install/precision_task/share/ament_index/resource_index
+[0.761s] creating /home/avant/Grupo-6-Trainee-Avant/install/precision_task/share/ament_index/resource_index/packages
+[0.761s] copying resource/precision_task -> /home/avant/Grupo-6-Trainee-Avant/install/precision_task/share/ament_index/resource_index/packages
+[0.761s] copying package.xml -> /home/avant/Grupo-6-Trainee-Avant/install/precision_task/share/precision_task
+[0.761s] creating /home/avant/Grupo-6-Trainee-Avant/install/precision_task/share/precision_task/launch
+[0.761s] copying launch/precision.launch.py -> /home/avant/Grupo-6-Trainee-Avant/install/precision_task/share/precision_task/launch
+[0.761s] running install_egg_info
+[0.763s] Copying ../../build/precision_task/precision_task.egg-info to /home/avant/Grupo-6-Trainee-Avant/install/precision_task/lib/python3.10/site-packages/precision_task-0.0.1-py3.10.egg-info
+[0.763s] running install_scripts
+[0.783s] Installing trainee_vision_node script to /home/avant/Grupo-6-Trainee-Avant/install/precision_task/lib/precision_task
+[0.783s] writing list of installed files to '/home/avant/Grupo-6-Trainee-Avant/build/precision_task/install.log'
+[0.804s] Invoked command in '/home/avant/Grupo-6-Trainee-Avant/VC/precision_task' returned '0': PYTHONPATH=/home/avant/Grupo-6-Trainee-Avant/build/precision_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avant/Grupo-6-Trainee-Avant/install/precision_task/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/precision_task build --build-base /home/avant/Grupo-6-Trainee-Avant/build/precision_task/build install --record /home/avant/Grupo-6-Trainee-Avant/build/precision_task/install.log --install-scripts $base/lib/precision_task --single-version-externally-managed install_data

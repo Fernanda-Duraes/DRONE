@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "precision_interfaces")
-set(precision_interfaces_VERSION "0.0.1")
-set(precision_interfaces_MAINTAINER "trainee <user@example.com>")
+set(precision_interfaces_VERSION "0.0.0")
+set(precision_interfaces_MAINTAINER "Avant Trainee <avant-trainee@ufmg.br>")
 set(precision_interfaces_BUILD_DEPENDS "std_msgs")
 set(precision_interfaces_BUILDTOOL_DEPENDS "ament_cmake" "rosidl_default_generators")
 set(precision_interfaces_BUILD_EXPORT_DEPENDS "std_msgs")
