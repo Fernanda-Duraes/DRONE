@@ -13,20 +13,19 @@ class SoundNode(Node):
         super().__init__('sound_node')
 
         self.sound_node_state_publisher = self.create_publisher(String, '/pkg_avant/integra/sound_status', 10)
-
+        self.nav_status = "offline"
         self.sound_state = "online"
         self.timer_status = self.create_timer(0.5, self.publish_sound_state)
 
         self.figura_subscriber = self.create_subscription(FiguraArray,'/vision/objects',self.receber_figuras,10)
-
-        self.complete_subscriber = self.create_subscription(Bool,'/vision/complete',self.receber_conclusao,10)
+        self.nav_status_subscriber = self.create_subscription(String, '/pkg_avant/integra/nav_status', self.read_nav_status, 10)
 
         self.caminho_sons = "./src/pkg_avant/pkg_avant/" #onde os sons estao localizados
         self.figuras = None
         self.visao_completa = False
         self.sequencia_executada = False
         self.timer = self.create_timer(0.1, self.verificar_inicio)
-        self.get_logger().info("Nó de som ativo. Aguardando visão completa.")
+        self.get_logger().info("Nó de som ativo. Aguardando pouso completo.")
 
     def publish_sound_state(self):
         msg = String()
@@ -36,14 +35,15 @@ class SoundNode(Node):
     def receber_figuras(self, msg: FiguraArray):
         self.figuras = msg.figuras
 
-    def receber_conclusao(self, msg: Bool):
-        self.visao_completa = msg.data
+
+    def read_nav_status(self, msg: String):
+        self.nav_status = msg.data
 
     def verificar_inicio(self):
 
-        if self.visao_completa and self.figuras and not self.sequencia_executada:
+        if self.nav_status == "mission_complete" and self.figuras and not self.sequencia_executada:
             self.sequencia_executada = True
-            self.get_logger().info("Visão completa! Iniciando áudios.")
+            self.get_logger().info("Pouso completo! Iniciando áudios.")
             self.processar_e_tocar(self.figuras)
             self.get_logger().info("Todos os áudios foram reproduzidos!")
             self.timer.cancel()
