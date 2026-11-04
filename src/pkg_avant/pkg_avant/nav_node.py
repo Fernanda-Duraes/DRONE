@@ -255,6 +255,7 @@ class NavNode(Node):
         time.sleep(3)
         self.get_logger().info('Missão finalizada.')
         self.get_logger().info(f'Tempo total da missao: {time.monotonic()-self.startTime} segundos')
+        self.nav_node_state_publisher.publish(String(data="mission_complete"))
 
 
 def main(args=None):

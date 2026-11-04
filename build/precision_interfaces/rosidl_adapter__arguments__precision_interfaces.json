@@ -1,7 +1,0 @@
-{
-  "package_name": "precision_interfaces",
-  "non_idl_tuples": [
-    "/home/avant/simulation/starts/avant_ws/VC/precision_interfaces:msg/Figura.msg",
-    "/home/avant/simulation/starts/avant_ws/VC/precision_interfaces:msg/FiguraArray.msg"
-  ]
-}

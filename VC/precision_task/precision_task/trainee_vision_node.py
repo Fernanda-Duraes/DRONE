@@ -210,11 +210,11 @@ class TraineeVisionNode(Node):
             f.centro_y = float(d['cy'])
             arr.figuras.append(f)
         self.pub_objects.publish(arr)
-
         done = Bool()
         done.data = self.completo
         self.pub_complete.publish(done)
-       
+        self.vision_state = "online" if not self.completo else "mission_complete"
+        self.vision_node_state_publisher.publish(String(data=self.vision_state))
 
 
 def main(args=None):

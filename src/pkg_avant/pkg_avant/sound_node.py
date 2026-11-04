@@ -48,6 +48,11 @@ class SoundNode(Node):
             self.get_logger().info("Todos os áudios foram reproduzidos!")
             self.timer.cancel()
 
+            self.sound_state = "mission_complete"
+            msg = String()
+            msg.data = self.sound_state
+            self.sound_node_state_publisher.publish(msg)
+
     def processar_e_tocar(self, figuras):
         ordem_cores = {
             "azul": 1,
@@ -77,17 +82,13 @@ class SoundNode(Node):
             return
 
         caminho = os.path.join(self.caminho_sons, arquivo)
-
         if os.path.exists(caminho):
-
             self.get_logger().info(f"Tocando: {forma}")
-
             try:
                 subprocess.run(
                     ['mpg123', '-q', caminho],
                     check=True
                 )
-
             except Exception as e:
                 self.get_logger().error(f"Erro no áudio: {e}")
 
