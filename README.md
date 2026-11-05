@@ -1,7 +1,7 @@
 # Grupo-6-Trainee-Avante
 
 ## como iniciar o programa pela primeira vez:
-primeiro faça cd ate o diretorio PASTA onde vc quer os trens todos
+primeiro faça cd ate o diretorio PASTA onde vc quer iniciar.
 mkdir /home/SEUUSUARIO/PASTA
 cd /home/SEUUSUARIO/PASTA
 
