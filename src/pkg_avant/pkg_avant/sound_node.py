@@ -54,14 +54,10 @@ class SoundNode(Node):
             self.sound_node_state_publisher.publish(msg)
 
     def processar_e_tocar(self, figuras):
-        ordem_cores = {
-            "azul": 1,
-            "vermelho": 2,
-            "verde": 3
-        }
+
         figuras_ordenadas = sorted(
             figuras,
-            key=lambda fig: ordem_cores.get(fig.cor, 99)
+            key=lambda fig: int(fig.rgb_hex.replace("#", ""), 16)
         )
         for fig in figuras_ordenadas:
             self.get_logger().info(f"Cor: {fig.cor} | Forma: {fig.forma}")
