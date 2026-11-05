@@ -9,12 +9,11 @@ class IntegraNode(Node):
 
     def __init__(self):
         super().__init__('integra_node')
-
+        #PARAMETROS INICIAIS
         self.nav_node_status = "offline"
         self.vision_node_status = "offline"
         self.sound_node_status = "offline"
         self.keyboardInterupted = False
-
         self.system_state = "offline"
         self.last_published_state = None
         #a ideia é manter o último estado publicado para evitar publicar o mesmo estado várias vezes seguidas, o que poderia gerar logs desnecessários.
@@ -30,7 +29,6 @@ class IntegraNode(Node):
         
         # Publicador do estado global
         self.system_status_publisher = self.create_publisher(String, '/pkg_avant/integra/global_system_status', 10)
-        
         self.timer = self.create_timer(0.5, self.publish_system_state)
 
     def sendKeyboardInteruptSignal(self):
@@ -45,7 +43,7 @@ class IntegraNode(Node):
     def read_sound_status(self, msg: String):
         self.sound_node_status = msg.data
 
-    def atualizacao_status(self):
+    def upgrade_status(self):
         """Registra logs apenas quando um dos nós muda de estado individualmente."""
         if self.nav_node_status != self._last_nav_status:
             if self.nav_node_status == "online":
@@ -69,7 +67,7 @@ class IntegraNode(Node):
             self._last_sound_status = self.sound_node_status
 
     def publish_system_state(self):
-        self.atualizacao_status()
+        self.upgrade_status()
 
         # Determina o novo estado global
         if (not self.keyboardInterupted 
