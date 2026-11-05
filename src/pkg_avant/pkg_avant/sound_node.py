@@ -12,18 +12,18 @@ class SoundNode(Node):
     def __init__(self):
         super().__init__('sound_node')
 
-        self.sound_node_state_publisher = self.create_publisher(String, '/pkg_avant/integra/sound_status', 10)
         self.nav_status = "offline"
         self.sound_state = "online"
-        self.timer_status = self.create_timer(0.5, self.publish_sound_state)
-
-        self.figura_subscriber = self.create_subscription(FiguraArray,'/vision/objects',self.receber_figuras,10)
-        self.nav_status_subscriber = self.create_subscription(String, '/pkg_avant/integra/nav_status', self.read_nav_status, 10)
-
-        self.caminho_sons = "./src/pkg_avant/pkg_avant/" #onde os sons estao localizados
         self.figuras = None
         self.visao_completa = False
         self.sequencia_executada = False
+
+        self.figura_subscriber = self.create_subscription(FiguraArray,'/vision/objects',self.receber_figuras,10)
+        self.nav_status_subscriber = self.create_subscription(String, '/pkg_avant/integra/nav_status', self.read_nav_status, 10)
+        self.sound_node_state_publisher = self.create_publisher(String, '/pkg_avant/integra/sound_status', 10)
+
+        self.caminho_sons = "./src/pkg_avant/pkg_avant/" #onde os sons estao localizados
+        self.timer_status = self.create_timer(0.5, self.publish_sound_state)
         self.timer = self.create_timer(0.1, self.verificar_inicio)
         self.get_logger().info("Nó de som ativo. Aguardando pouso completo.")
 

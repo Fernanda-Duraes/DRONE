@@ -75,7 +75,7 @@ class IntegraNode(Node):
             and self.vision_node_status == "mission_complete" 
             and self.nav_node_status == "mission_complete"):
             self.system_state = "mission_complete"
-            self.keyboardInterupted = True
+           
 
         elif (not self.keyboardInterupted
               and self.nav_node_status == "online"
